@@ -1,0 +1,20 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Program",
+      "program": "${file}",
+      "preLaunchTask": "tsc: build - tsconfig.json",
+      "outFiles": ["${workspaceFolder}/dist/**/*.js"],
+      "env": {
+        "SERPAPI_API_KEY": "fed05644ead8ae660d7aeccbfd235d15de5d005c6deb72703d3f64910666528e",
+        "OPENAI_API_KEY": "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"
+      }
+    }
+  ]
+}
