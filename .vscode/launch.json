@@ -12,8 +12,8 @@
       "preLaunchTask": "tsc: build - tsconfig.json",
       "outFiles": ["${workspaceFolder}/dist/**/*.js"],
       "env": {
-        "SERPAPI_API_KEY": "fed05644ead8ae660d7aeccbfd235d15de5d005c6deb72703d3f64910666528e",
-        "OPENAI_API_KEY": "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"
+        "SERPAPI_API_KEY": "",
+        "OPENAI_API_KEY": ""
       }
     }
   ]
